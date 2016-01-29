@@ -1,0 +1,46 @@
+# general universal variables
+title : pkimes.
+author :
+  name : patrick kosuke kimes
+  email : patrick.kimes@gmail.com
+  github : pkimes
+  twitter : pkkosuke
+  feedburner : nil
+
+# home for site
+production_url : http://pkimes.github.io/
+
+# ignored contents
+exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+# use redcarpet for syntax highlighting through github jekyll
+markdown : redcarpet
+redcarpet :
+  extensions :
+    ["no_intra_emphasis",
+     "fenced_code_blocks",
+     "autolink",
+     "strikethrough",
+     "superscript"]
+
+# activate syntax highlighting 
+highlighter : pygments
+
+# post saving for more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink : /:categories/:title 
+
+# jekyll-bootstrap specific configs
+JB :
+  version : 0.3.0
+  # BASE_PATH : http://pkimes.github.io
+  archive_path: nil
+  categories_path : nil
+  tags_path : nil
+  atom_path : nil
+  rss_path : nil
+  comments :
+    provider : false
+  analytics :
+    provider : false
+  sharing :
+    provider : false
