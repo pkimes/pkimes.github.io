@@ -1,0 +1,39 @@
+{% include JB/setup %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include freedom/head.html %}
+    </head>
+
+    <body>
+        {% include freedom/header.html %}
+        <div class="container-narrow entry-content">
+            <div class="row">
+                <div class="span12">
+                    <div class="jumbotron">
+                        <h2>Patrick Kosuke Kimes </h2>
+                        Statistician / Bioinformatician <br>
+                        Roche Sequencing <br>
+                        Pleasanton, CA
+                    </div>
+                    <p align="right"><i><a href="http://en.wikipedia.org/wiki/Chimney_Rock_State_Park">Chimney Rock State Park, NC</a></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <hr>
+                    {% include freedom/footer.html %}
+                </div>
+            </div>
+        </div>
+        
+        {% include freedom/analytics.html %}
+    </body>
+</html>
+

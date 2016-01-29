@@ -1,0 +1,13 @@
+.jumbotron {
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    background-image: url(../img/asheville.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    color: white;
+    font-size:120%;
+}

@@ -1,0 +1,27 @@
+{% include JB/setup %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include freedom/head.html %}
+    </head>
+
+    <body>
+        {% include freedom/header.html %}
+        <div class="container-narrow entry-content">
+            <div class="row">
+                <div class="span12">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <hr>
+                    {% include freedom/footer.html %}
+                </div>
+            </div>
+        </div>
+        
+        {% include freedom/analytics.html %}
+    </body>
+</html>
