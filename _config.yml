@@ -8,7 +8,7 @@ author :
   feedburner : nil
 
 # home for site
-production_url : http://pkimes.github.io/
+production_url : http://pkimes.github.io
 
 # ignored contents
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -32,7 +32,7 @@ permalink : /:categories/:title
 # jekyll-bootstrap specific configs
 JB :
   version : 0.3.0
-  #BASE_PATH : http://pkimes.github.io
+  BASE_PATH : http://pkimes.github.io
   ASSET_PATH : assets/freedom
   archive_path: nil
   categories_path : nil
