@@ -3,29 +3,23 @@ layout: page
 title: Publications
 ---
 
-### Methodology  
+1. **Kimes PK**, Liu Y, Hayes DN, and Marron JS. 
+["Statistical significance for hierarchical clustering."][SHC] **Revision under review**.  
 
-* **Kimes PK**, Hayes DN, Marron JS, and Liu Y. 
-["Large-margin classification with multiple decision rules."][intervals] **Under review**.   
+2. **Kimes PK**, Hayes DN, Marron JS, and Liu Y. 
+["Large-margin classification with multiple decision rules."][intervals] **Statistical Analysis and Data Mining**.   
 
-* **Kimes PK**, Liu Y, Hayes DN, and Marron JS. 
-["Statistical significance for hierarchical clustering."][SHC] **Under review**.  
+3. **The Cancer Genome Atlas Research Network**. ["Comprehensive genomic
+characterization of head and neck squamous cell carcinoma."][hnsc]
+**Nature**, 2015.  
 
-* **Kimes PK**\*, Cabanski CR*, Wilkerson MD, Zhao N, Johnson AR,
+4. **Kimes PK**\*, Cabanski CR*, Wilkerson MD, Zhao N, Johnson AR,
 Makowski L, Maher CA, Liu Y, Perou CM, Marron JS, and 
 Hayes DN. ["SigFuge: single gene unsupervised clustering 
 of RNA-seq data reveals heterogeneity among cancer 
 samples."][sigfuge] **Nucleic Acids Research**, 2014. (\*: _joint first authors_)  
 
----
-
-### Analysis  
-
-* **The Cancer Genome Atlas Research Network**. ["Comprehensive genomic
-characterization of head and neck squamous cell carcinoma."][hnsc]
-**Nature**, 2015.  
-
-* **The Cancer Genome Atlas Research Network**. ["Comprehensive molecular 
+5. **The Cancer Genome Atlas Research Network**. ["Comprehensive molecular 
 profiling of lung adenocarcinoma."][luad]
 **Nature**, 2014.  
 
