@@ -8,31 +8,51 @@
 
     <body>
         {% include freedom/header.html %}
-        <div class="container-narrow entry-content">
-            <div class="row">
-                <div class="span12">
-                    <div class="jumbotron">
-                        <h2>Patrick Kosuke Kimes </h2>
-                        Statistician / Bioinformatician <br>
-                        Roche Sequencing <br>
-                        Pleasanton, CA
+        <div class="container-narrow entry-content" style="padding-top:30px;">
+            <div class="row"> 
+                <div class="col-sm-8">
+                    <h2>Patrick Kosuke Kimes, PhD</h2>
+                    <hr/>
+                    <div class="entry-content">
+                        {{ content }}
                     </div>
-                    <p align="right"><i><a href="http://en.wikipedia.org/wiki/Chimney_Rock_State_Park">Chimney Rock State Park, NC</a></i></p>
+                </div>
+                <div class="col-sm-4" id="sidebar">
+                    <!-- inclust avatar image -->
+                    <section class="well well-sm">
+                        <p><img width="100%" class="img" src="{{ BASE_PATH }}/{{ ASSET_PATH }}/img/patrick.jpg"/></p>
+                    </section>
                 </div>
             </div>
+
+            <!-- links and information -->
             <div class="row">
-                <div class="span12">
-                    {{ content }}
+                <div class="col-sm-12">
+                    <div class="btn-group btn-group-justified">
+                        <a href="mailto:patrick.kimes@gmail.com" class="btn btn-default btn-lg">
+                            <i class="fa fa-envelope-o fa-lg"></i> 
+                            <span class="icon-label">me@gmail</span>
+                        </a>
+                        <a href="http://www.linkedin.com/pub/patrick-kimes/42/874/200" class="btn btn-default btn-lg">
+                            <i class="fa fa-linkedin fa-lg"></i> <span class="icon-label">linkedin</span>
+                        </a>
+                        <a href="http://github.com/pkimes/" class="btn btn-default btn-lg">
+                            <i class="fa fa-github fa-lg"></i> <span class="icon-label">github</span>
+                        </a>
+                        <a href="http://scholar.google.com/citations?hl=en&user=UBYy1J0AAAAJ" class="btn btn-default btn-lg">
+                            <i class="fa fa-google fa-lg"></i> <span class="icon-label">scholar</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="span12">
-                    <hr>
-                    {% include freedom/footer.html %}
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <hr>
+                        {% include freedom/footer.html %}
+                    </div>
                 </div>
             </div>
         </div>
-        
         {% include freedom/analytics.html %}
     </body>
 </html>
