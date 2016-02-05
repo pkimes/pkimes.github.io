@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-sm-12 entry-content">
+        <h2>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
+        <hr/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-9 entry-content">
+        <!-- page content should be reference list -->
+        {{ content }}
+        <h3>Reading Log</h3>
+        <!-- auto-populate reading log -->
+        {% include JB/readings_list %}
+    </div>
+    <div class="col-sm-3 entry-content">
+        <strong>References</strong>
+        <ul>
+            <li><a href="http://imstat.org/aoas/">AoAS</a></li>
+            <li><a href="http://imstat.org/aos/">AoS</a></li>
+            <li><a href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420">Biometrics</a></li>
+            <li><a href="http://biomet.oxfordjournals.org/">Biometrika</a></li>
+            <li><a href="http://biostatistics.oxfordjournals.org/">Biostatistics</a></li>
+            <li><a href="http://www.tandfonline.com/toc/uasa20/current">JASA</a></li>
+            <li><a href="http://www.tandfonline.com/toc/ucgs20/current">JCGS</a></li>
+            <li><a href="http://www.jmlr.org/">JMLR</a></li>
+            <li><a href="http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9868">JRSSB</a></li>
+            <li><a href="http://www3.stat.sinica.edu.tw/statistica/">Statistica Sinica</a></li>
+        </ul>
+    </div>
+</div>
