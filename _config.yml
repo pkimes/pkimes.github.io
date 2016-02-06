@@ -14,17 +14,10 @@ author :
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 # use redcarpet for syntax highlighting through github jekyll
-markdown : redcarpet
-redcarpet :
-  extensions :
-    ["no_intra_emphasis",
-     "fenced_code_blocks",
-     "autolink",
-     "strikethrough",
-     "superscript"]
+markdown : kramdown
 
 # activate syntax highlighting 
-highlighter : pygments
+highlighter : rouge
 
 # post saving for more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink : /:categories/:title 
