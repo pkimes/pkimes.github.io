@@ -11,6 +11,7 @@ corresponding __R packages__ and __publications__ are provided below.
 
 
 ---
+
 ### Packages
 
 1. [__SigFuge__][sigfuge-pkg]: clustering/visualization of RNA-seq read depth at per-base resolution.  
@@ -22,6 +23,7 @@ corresponding __R packages__ and __publications__ are provided below.
 
 
 ---
+
 ### Publications
 
 1. **Kimes PK**, Liu Y, Hayes DN, and Marron JS. 
