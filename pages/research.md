@@ -14,11 +14,11 @@ corresponding __R packages__ and __publications__ are provided below.
 
 ### Packages
 
-1. [__SigFuge__][sigfuge-pkg]: clustering/visualization of RNA-seq read depth at per-base resolution.  
+1. [__SigFuge__](http://www.bioconductor.org/packages/release/bioc/html/SigFuge.html): clustering/visualization of RNA-seq read depth at per-base resolution.  
 
-1. [__sigclust2__][sigclust2-pkg]: assessing the statistical significance in hierarchical clustering.  
+1. [__sigclust2__](http://github.com/pkimes/sigclust2/): assessing the statistical significance in hierarchical clustering.  
 
-1. [__spliceclust__][spliceclust-pkg]: visualization/exploratory analysis of splicing across RNA-seq samples.  
+1. [__spliceclust__](http://github.com/pkimes/spliceclust/): visualization/exploratory analysis of splicing across RNA-seq samples.  
 
 
 
@@ -26,36 +26,21 @@ corresponding __R packages__ and __publications__ are provided below.
 
 ### Publications
 
-1. **Kimes PK**, Liu Y, Hayes DN, and Marron JS. 
-["Statistical significance for hierarchical clustering."][SHC] **Revision under review**.  
+1. **Kimes PK**, Liu Y, Hayes DN, and Marron JS. (2017). [Statistical significance for hierarchical clustering.](http://arxiv.org/abs/1411.5259) **Biometrics**, to appear.  
 
-1. **Kimes PK**, Hayes DN, Marron JS, and Liu Y. 
-["Large-margin classification with multiple decision rules."][intervals] **Statistical Analysis and Data Mining**, 2016.   
+1. **Kimes PK**, Hayes DN, Marron JS, and Liu Y. (2016). [Large-margin classification with multiple decision rules.](http://onlinelibrary.wiley.com/doi/10.1002/sam.11304/abstract) **Statistical Analysis and Data Mining**, 9(2), 89-105.  
 
-1. **The Cancer Genome Atlas Research Network**. ["Comprehensive genomic
-characterization of head and neck squamous cell carcinoma."][hnsc]
-**Nature**, 2015.  
+1. Ko YH, Walter V, Catalano M, Yin X, **Kimes PK**, Xiao X, and Hayes DN. (2015). [Integrative analysis of miRNAs classify two distinct stages of epithelial cell differentiation in head and neck squamous cell carcinoma (HNSCC)](http://cancerres.aacrjournals.org/content/75/15_Supplement/4007). **Cancer Research**, 75(15 Supplement), 4007.
 
-1. **Kimes PK**\*, Cabanski CR*, Wilkerson MD, Zhao N, Johnson AR,
-Makowski L, Maher CA, Liu Y, Perou CM, Marron JS, and 
-Hayes DN. ["SigFuge: single gene unsupervised clustering 
-of RNA-seq data reveals heterogeneity among cancer 
-samples."][sigfuge] **Nucleic Acids Research**, 2014. (\*: _joint first authors_)  
+1. **The Cancer Genome Atlas Research Network**. (2015). [Comprehensive genomic characterization of head and neck squamous cell carcinoma.](http://www.nature.com/nature/journal/v517/n7536/full/nature14129.html) **Nature**, 517(7536), 576-582.  
 
-1. **The Cancer Genome Atlas Research Network**. ["Comprehensive molecular 
-profiling of lung adenocarcinoma."][luad]
-**Nature**, 2014.  
+1. **Kimes PK**\*, Cabanski CR*, Wilkerson MD, Zhao N, Johnson AR, Makowski L, Maher CA, Liu Y, Perou CM, Marron JS, and Hayes DN. (2014). [SigFuge: single gene unsupervised clustering of RNA-seq data reveals heterogeneity among cancer samples.](http://nar.oxfordjournals.org/content/early/2014/07/15/nar.gku521.abstract) **Nucleic Acids Research**, 42(14), e113. (\*: _joint first authors_)  
+
+1. **The Cancer Genome Atlas Research Network**. (2014). [Comprehensive molecular profiling of lung adenocarcinoma.](http://www.nature.com/nature/journal/v511/n7511/full/nature13385.html) **Nature**, 511(7511), 543-550.  
 
 
-[github]: http://github.com/pkimes/
-[sigfuge-pkg]: http://www.bioconductor.org/packages/release/bioc/html/SigFuge.html
-[sigclust2-pkg]: http://github.com/pkimes/sigclust2/
-[spliceclust-pkg]: http://github.com/pkimes/spliceclust/
 
-[intervals]: http://arxiv.org/abs/1411.5260
-[SHC]: http://arxiv.org/abs/1411.5259
-[sigfuge]: http://nar.oxfordjournals.org/content/early/2014/07/15/nar.gku521.abstract
-[luad]: http://www.nature.com/nature/journal/v511/n7511/full/nature13385.html
-[hnsc]: http://www.nature.com/nature/journal/v517/n7536/full/nature14129.html
+
+
 
 
