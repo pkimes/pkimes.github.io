@@ -1,5 +1,5 @@
 # general universal variables
-title : pkimes.
+title : Patrick Kimes
 author :
   name : patrick kosuke kimes
   email : patrick.kimes@gmail.com
@@ -25,7 +25,7 @@ permalink : /:categories/:title
 # jekyll-bootstrap specific configs
 JB :
   version : 0.3.0
-  ASSET_PATH : assets/freedom
+  ASSET_PATH : assets/reboot
   archive_path: nil
   categories_path : nil
   tags_path : nil

@@ -3,23 +3,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include freedom/head.html %}
+        {% include component/head.html %}
     </head>
 
     <body>
-        {% include freedom/header.html %}
+        {% include component/header.html %}
         <div class="container-narrow" style="padding-top:40px">
             {{ content }}
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-md-offset-1 col-md-10">
                     <hr>
-                    {% include freedom/footer.html %}
+                    {% include component/footer.html %}
                 </div>
             </div>
         </div>
         
-        {% include freedom/analytics.html %}
-        {% include freedom/foot.html %}
+        {% include component/analytics.html %}
+        {% include component/foot.html %}
     </body>
 </html>
 
