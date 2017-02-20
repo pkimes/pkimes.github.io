@@ -3,57 +3,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include freedom/head.html %}
+        {% include components/head.html %}
     </head>
 
     <body>
-        {% include freedom/header.html %}
-        <div class="container-narrow" style="padding-top:40px;">
-            <div class="row"> 
-                <div class="col-sm-8">
-                    <h2>Patrick Kosuke Kimes, PhD</h2>
+        {% include components/header.html %}
+        <div class="container" style="padding-top:40px">
+            <div class="row">
+                <!--  LEFT SIDEBAR  -->
+                <div class="col-md-offset-1 col-md-3" id="sidebar" style="padding-top:20px;">
+                    <!-- include avatar image -->
+                    <section class="well well-sm center-block" style="width:100%">
+                        <img width="100%" height=100% class="img-rounded" src="{{ BASE_PATH }}/assets/img/patrick.jpg"/>
+                    </section>
+                    <!-- include links to other sites -->
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:">
+                            <i class="fa fa-envelope fa-fw fa-lg"></i>
+                            <img height=13px src="{{ BASE_PATH }}/assets/img/email-red.png"/>
+                        </a></li>
+                        <li><a href="https://linkedin.com/pkimes">
+                            <i class="fa fa-linkedin fa-fw fa-lg"></i>
+                            LinkedIn //business
+                        </a></li>
+                        <li><a href="https://scholar.google.com/citations?user=UBYy1J0AAAAJ&hl=en">
+                            <i class="fa fa-google fa-fw fa-lg"></i>
+                            Scholar &nbsp;//writing
+                        </a></li>
+                        <li><a href="https://github.com/pkimes/">
+                            <i class="fa fa-github fa-fw fa-lg"></i>
+                            GitHub &nbsp;&nbsp;//coding
+                        </a></li>
+                        <li><a href="https://www.strava.com/athletes/15641957">
+                            <i class="fa fa-heartbeat fa-fw fa-lg"></i>
+                            Strava &nbsp;&nbsp;//running
+                        </a></li>
+                        <li>
+                            <i class="fa fa-twitter fa-fw fa-lg"></i>
+                            Twitter &nbsp;//tomfoolery
+                        </li>
+                    </ul>
+                </div>
+                <!--  MAIN PAGE  --> 
+                <div class="col-md-7">
+                    <!-- include name -->
+                    <h2>Patrick Kosuke Kimes / 橋本 浩亮 </h2>
                     <hr/>
+                    <!-- include brief bio -->
                     <div class="entry-content">
                         {{ content }}
                     </div>
-                </div>
-                <div class="col-sm-4" id="sidebar">
-                    <!-- inclust avatar image -->
-                    <section class="well well-sm">
-                        <p><img width="100%" class="img" src="{{ BASE_PATH }}/assets/img/patrick.jpg"/></p>
-                    </section>
+                    <hr/>
                 </div>
             </div>
 
-            <!-- links and information -->
+            <!-- footer --> 
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="btn-group btn-group-justified">
-                        <a href="mailto:patrick.kimes@gmail.com" class="btn btn-default btn-lg">
-                            <i class="fa fa-envelope-o fa-lg"></i> 
-                            <span class="icon-label">me@gmail</span>
-                        </a>
-                        <a href="http://www.linkedin.com/pub/patrick-kimes/42/874/200" class="btn btn-default btn-lg">
-                            <i class="fa fa-linkedin fa-lg"></i> <span class="icon-label">linkedin</span>
-                        </a>
-                        <a href="http://github.com/pkimes/" class="btn btn-default btn-lg">
-                            <i class="fa fa-github fa-lg"></i> <span class="icon-label">github</span>
-                        </a>
-                        <a href="http://scholar.google.com/citations?hl=en&user=UBYy1J0AAAAJ" class="btn btn-default btn-lg">
-                            <i class="fa fa-google fa-lg"></i> <span class="icon-label">scholar</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12">
-                        <hr>
-                        {% include freedom/footer.html %}
-                    </div>
+                <div class="col-md-offset-1 col-md-10">
+                    <hr>
+                    {% include components/footer.html %}
                 </div>
             </div>
         </div>
-        {% include freedom/analytics.html %}
+        {% include components/analytics.html %}
     </body>
 </html>
 
