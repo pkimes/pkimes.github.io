@@ -4,16 +4,20 @@ title: pkimes
 tagline: home
 ---
 
-I am currently a **bioinformatician** [biology + data] at [Roche Sequencing][roche] in Pleasanton, CA building computational pipelines for DNA-sequencing-based molecular diagnostics.  
+I am currently a **Postdoctoral Research Fellow in [Rafael Irizarry's lab][rafalab]** at the [Dana-Farber Cancer Institute][dfci] and the [Harvard T. H. Chan School of Public Health][bios]. Before moving to Boston, I spent 2 years in beautiful San Francisco doing bioinformatics at [Roche Sequencing][roche]. I received my PhD in [Statistics][unc-stats] at the [University of North Carolina][unc], and my BA in [Mathematics][pomona-math] at [Pomona College][pomona].  
 
-Before moving to the Bay Area, I completed my PhD in [Statistics][] at the [University of North Carolina][unc], where my time was split between the Department of Statistics and the Lineberger Comprehensive Cancer Center. My dissertation work involved **machine learning, genomics, and [R][]**. As a member of the Lineberger Comprehensive Cancer Center, I also contributed analyses to [The Cancer Genome Atlas][TCGA]. Before graduate school, I studied math at [Pomona College][pomona].  
-
-For my complete curriculum vitae: <a href="{{ BASE_PATH }}/assets/pdf/kimes-resume.pdf">voila [pdf]</a>.
+For my formal curriculum vitae: <a href="/assets/pdf/kimes-resume.pdf">voila [pdf]</a>.
 <br>  
 
-[roche]: http://sequencing.roche.com/
-[statistics]: http://stat-or.unc.edu/
+[rafalab]: http://rafalab.github.io/
+[dfci]: http://bcb.dfci.harvard.edu/
+[bios]: https://www.hsph.harvard.edu/biostatistics/
+[sph]: https://www.hsph.harvard.edu/
+[unc-stats]: http://stat-or.unc.edu/
 [unc]: http://ww.unc.edu/
+[pomona-math]: https://www.pomona.edu/academics/departments/mathematics
 [pomona]: http://www.pomona.edu/
+[roche]: http://sequencing.roche.com/
 [TCGA]: http://cancergenome.nih.gov
 [R]: http://www.github.com/pkimes/
+
