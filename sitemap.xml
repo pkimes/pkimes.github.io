@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.pkimes.com/cv/</loc>
+    <loc>http://pkimes.github.io/cv/</loc>
   </url>
   
   <url>
-    <loc>http://www.pkimes.com/categories/</loc>
+    <loc>http://pkimes.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.pkimes.com/</loc>
+    <loc>http://pkimes.github.io/</loc>
   </url>
   
   <url>
-    <loc>http://www.pkimes.com/tags/</loc>
+    <loc>http://pkimes.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
