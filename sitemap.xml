@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/cv/</loc>
+    <loc>http://pkimes.github.io/cv/</loc>
   </url>
   
   <url>
-    <loc>/teaching/</loc>
+    <loc>http://pkimes.github.io/teaching/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://pkimes.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://pkimes.github.io/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://pkimes.github.io/tags/</loc>
   </url>
   
 </urlset>
